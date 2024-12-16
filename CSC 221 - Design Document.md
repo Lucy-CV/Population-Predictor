@@ -38,17 +38,17 @@ while True:
     try:  
         t \= float(input("Enter the time in years (1-50): "))  
           
-        if t \< 1 or t \> 50:  
+if t \< 1 or t \> 50:  
             print("Error: Number entered is outside the accepted range (1-50). Please try again.")
 
-        else:  
+else:  
             predicted\_population \= predict\_population(t)  
             print("The predicted population after t years is: predicted population)
 
-    except ValueError:  
+except ValueError:  
         print("Error: Please enter a valid number.")  
       
-    while True:  
+while True:  
         continue\_choice \= input("Would you like to predict again? (yes/no):   
         if continue\_choice \== 'yes':  
             break  
