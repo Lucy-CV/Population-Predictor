@@ -1,1 +1,1 @@
-Hello! This is our CSC 221 Project!
+Hello! This is our CSC 221 Final Project!
